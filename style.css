@@ -1,0 +1,21 @@
+@counter-style fruits {
+  system: fixed;
+  symbols: 😍 😎 😌 😵 😠 😒 😡 😑 😁 🙂;
+  suffix: " ";
+}
+
+@counter-style circled-alpha {
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  suffix: " ";
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+ul {
+  list-style: fruits;
+}
